@@ -1,4 +1,3 @@
-```javascript
 function cekJawaban(){
 
 const jawaban =
@@ -34,4 +33,3 @@ hasil.style.color = "red";
 }
 
 }
-```
