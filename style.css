@@ -1,0 +1,128 @@
+```css
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#0b5ed7;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+width:916px;
+height:516px;
+background:white;
+border-radius:20px;
+overflow:hidden;
+}
+
+header{
+height:90px;
+background:linear-gradient(90deg,#0b5ed7,#ff9800);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 25px;
+color:white;
+}
+
+.judul h1{
+font-size:34px;
+}
+
+.judul span{
+font-size:18px;
+}
+
+.identitas{
+text-align:right;
+font-size:12px;
+}
+
+main{
+display:grid;
+grid-template-columns:50% 50%;
+height:426px;
+}
+
+.materi{
+padding:10px;
+overflow:hidden;
+}
+
+.card{
+background:#f5f7fa;
+border-left:6px solid #ff9800;
+padding:10px;
+margin-bottom:8px;
+border-radius:10px;
+}
+
+.card h2{
+font-size:16px;
+color:#0b5ed7;
+margin-bottom:5px;
+}
+
+.card ul,
+.card ol{
+margin-left:18px;
+font-size:12px;
+}
+
+.card p{
+font-size:12px;
+}
+
+#quiz{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:4px;
+margin-top:5px;
+}
+
+#quiz label{
+font-size:12px;
+}
+
+button{
+margin-top:5px;
+padding:8px 12px;
+background:#0b5ed7;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+#hasil{
+margin-top:8px;
+font-weight:bold;
+}
+
+.simulasi{
+padding:10px;
+background:#eef4ff;
+display:flex;
+flex-direction:column;
+}
+
+.simulasi h2{
+color:#ff9800;
+margin-bottom:8px;
+}
+
+.simulasi iframe{
+width:100%;
+height:100%;
+border:none;
+border-radius:12px;
+background:white;
+}
+```
